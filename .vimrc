@@ -31,6 +31,8 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " インストールするプラグインをここに記述
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'maxmellon/vim-jsx-pretty'
+NeoBundle 'othree/yajs.vim'
+NeoBundle 'Valloric/YouCompleteMe'
 
 call neobundle#end()
 
