@@ -2,5 +2,5 @@
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
 
-# install Vim Vundle
-git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+# install Neo Vundle
+git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
