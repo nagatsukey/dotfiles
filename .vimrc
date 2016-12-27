@@ -16,6 +16,9 @@ set statusline+=%<%F
 "現在文字行/全体行表示
 set statusline+=[L=%l/%L]
 
+"自動インデント、コメントアウトなし
+:set paste
+
 
 "---------------------------
 " Start NeoBundle
