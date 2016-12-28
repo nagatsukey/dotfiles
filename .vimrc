@@ -17,13 +17,13 @@ set statusline+=%<%F
 set statusline+=[L=%l/%L]
 
 "自動インデント、コメントアウトなし
-:set paste
+set paste
 
 "折り返し無し
-:set nowrap
+set nowrap
 
 "行表示
-:set number
+set number
 
 "---------------------------
 " Start NeoBundle
