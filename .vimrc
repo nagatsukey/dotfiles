@@ -19,6 +19,8 @@ set statusline+=[L=%l/%L]
 "自動インデント、コメントアウトなし
 :set paste
 
+"行表示
+:set number
 
 "---------------------------
 " Start NeoBundle
