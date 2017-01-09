@@ -1,6 +1,15 @@
 # prompt
 export PS1="\[\e[0;36m\][\[\e[00m\]\[\e[1;31m\]\u\[\e[00m\]\[\e[1;33m\]@\[\e[00m\]\[\e[0;34m\]\h\[\e[00m\]\[\e[0;36m\]]\[\e[00m\]\[\e[0;36m\][\[\e[00m\]\[\e[1;32m\]\w\[\e[00m\]\[\e[0;36m\]]\[\e[00m\]\[\e[0;36m\]\n\$ > \[\e[00m\]"
 
+# ls
+if [ "$(uname)" = 'Darwin' ]; then
+    export LSCOLORS=xbfxcxdxbxegedabagacad
+    alias ls='ls -G'
+else
+    eval `dircolors ~/.colorrc`
+    alias ls='ls --color=auto'
+fi
+
 
 # alias
 alias gls='git status'
