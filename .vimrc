@@ -28,7 +28,11 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+"折り返し無し
+set nowrap
 
+"行表示
+set number
 
 "---------------------------
 " Start NeoBundle
