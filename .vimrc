@@ -16,8 +16,18 @@ set statusline+=%<%F
 "現在文字行/全体行表示
 set statusline+=[L=%l/%L]
 
-"自動インデント、コメントアウトなし
+"自動インデントなし
+set noautoindent
+set nosmartindent 
+
+"自動コメントアウトなし
 :set paste
+
+" TABキーを押した際にタブ文字の代わりにスペースを入れる
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
 
 
 "---------------------------
