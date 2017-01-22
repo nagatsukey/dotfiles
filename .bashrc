@@ -6,7 +6,6 @@ if [ "$(uname)" = 'Darwin' ]; then
     export LSCOLORS=xbfxcxdxbxegedabagacad
     alias ls='ls -G'
 else
-    eval `dircolors ~/.colorrc`
     alias ls='ls --color=auto'
 fi
 
