@@ -2,6 +2,14 @@
 PROMPT='%F{cyan}[%f%F{red}%n%f%F{yellow}@%f%F{blue}%m%f%F{cyan}]%f%F{cyan}[%f%F{green}%~%f%F{cyan}]%f
 %F{cyan}$ >%f '
 
+# ls
+if [ "$(uname)" = 'Darwin' ]; then
+  export LSCOLORS=xbfxcxdxbxegedabagacad
+  alias ls='ls -G'
+else
+  alias ls='ls --color=auto'
+fi
+
 # alias
 alias gls='git status'
 alias gch='git checkout'
